@@ -19,7 +19,7 @@ public class ExcelOperations {
 		XSSFRow NewRows = NewSheet.createRow(0);
 		XSSFCell NewCells = NewRows.createCell(0);
 		NewCells.setCellValue("Online ID");
-		FileOutputStream fos = new FileOutputStream(excel);
+
 		
 		//Writing Values into New Sheet
 		
