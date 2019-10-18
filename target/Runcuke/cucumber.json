@@ -1,0 +1,106 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify google search functionality",
+        "description": "",
+        "id": "google-search-functionality;;verify-google-search-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Browser is launched",
+            "match": {
+              "location": "GoogleSearchSteps.browser_is_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enters \"URL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 13
+                }
+              ],
+              "location": "GoogleSearchSteps.user_enters_something(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Google Search page is displayed",
+            "match": {
+              "location": "GoogleSearchSteps.google_search_page_is_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User enters required \"text\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "text",
+                  "offset": 22
+                }
+              ],
+              "location": "GoogleSearchSteps.user_enters_required_something(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click on enter",
+            "match": {
+              "location": "GoogleSearchSteps.click_on_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Respective results should be displayed",
+            "match": {
+              "location": "GoogleSearchSteps.respective_results_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search Functionality;",
+    "description": "",
+    "id": "google-search-functionality;",
+    "keyword": "Feature",
+    "uri": "GoogleSearch.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@GoogleSearch"
+      }
+    ]
+  }
+]
